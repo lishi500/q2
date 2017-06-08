@@ -6,14 +6,14 @@ import { OnInit } from '@angular/core';
 
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
+  selector: 'my-heroes',
+  templateUrl: './hero.component.html',
   styleUrls: ['./app.component.css'],
   providers: [HeroService],
 
 })
 
-export class AppComponent implements OnInit {
+export class HeroesComponent  implements OnInit {
   title = 'Tour of heros!';
   heroes: Hero[];
   selectedHero: Hero;
