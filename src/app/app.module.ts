@@ -14,8 +14,12 @@ import { HeroDetailComponent } from './hero-detail.component';
 import { DashboardComponent } from './dashboard.component';
 import {HeroSearchComponent} from './hero-search.component';
 import {HeroFormComponent} from './hero-form.component';
+import {HeroBirthdayComponent} from './hero-birthday1.component';
+import {PowerBoosterComponent} from './pipe-test.component';
 
 import {HeroService} from './hero.service';
+
+import {ExponentialStrengthPipe} from './exponential-strength.pipe';
 
 
 
@@ -27,7 +31,10 @@ import {HeroService} from './hero.service';
     HeroDetailComponent,
     DashboardComponent,
     HeroSearchComponent,
-    HeroFormComponent
+    HeroFormComponent,
+    HeroBirthdayComponent,
+    PowerBoosterComponent,
+    ExponentialStrengthPipe
   ],
   imports: [
     BrowserModule,

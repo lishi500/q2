@@ -1,4 +1,5 @@
 <h3>Top Heroes</h3>
+<hero-birthday></hero-birthday>
 <div class="grid grid-pad">
   <div *ngFor="let hero of heroes" class="col-1-4">
     <a [routerLink]="['/detail', hero.id]">
@@ -10,3 +11,5 @@
   <div style="clear:both"></div>
 </div>
 <hero-search></hero-search>
+
+
